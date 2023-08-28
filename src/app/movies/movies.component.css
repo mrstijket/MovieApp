@@ -1,3 +1,16 @@
 h2{
     color: orange;
 }
+
+.id-name{
+    color: darkblue;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.closeIcon{
+    float: right;
+    margin: 0px 10px;
+    color: orangered;
+    border: none;
+}
