@@ -8,4 +8,4 @@ export const Movies: Movie[] = [
     {id: 5, name: 'Top Gun', description:"As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.",imageUrl:"topgun.jpg"},
     {id: 6, name: 'Blade Runner 2049', description:"Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",imageUrl:"bladerunner.jpg"},
     
-]
+];
