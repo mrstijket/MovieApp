@@ -7,5 +7,6 @@ export const Movies: Movie[] = [
     {id: 4, name: 'Fight Club', description:"An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.", imageUrl:"fightclub.jpg"},
     {id: 5, name: 'Top Gun', description:"As students at the United States Navy's elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.",imageUrl:"topgun.jpg"},
     {id: 6, name: 'Blade Runner 2049', description:"Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",imageUrl:"bladerunner.jpg"},
+    {id: 7, name: 'Into the Wild', description:"After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.", imageUrl:"intothewild.jpg"},
     
 ];
