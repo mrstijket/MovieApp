@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Injectable } from "@angular/core";
 import { Movie } from "../movie";
 import { MovieService } from "../movie.service";
 
@@ -7,6 +7,11 @@ import { MovieService } from "../movie.service";
     templateUrl: 'movies.component.html',
     styleUrls: ['movies.component.css']
 })
+
+@Injectable({
+    providedIn:'root' 
+})
+
 export class MoviesComponent {
     title = 'Movie List';
 
@@ -27,5 +32,10 @@ export class MoviesComponent {
         this.movieService.getMovies().subscribe(movies=> {
             this.movies=movies;
         });
+    }
+
+    delete(movie:Movie): void {
+        this.movies = this.movies.filter(m => m!==movie);
+        this.movieService.delete(movie).subscribe();
     }
 }

@@ -4,9 +4,9 @@
     </div>
     <ul class="list-group list-group-flush">
         <li *ngFor="let movie of movies" class="list-group-item" routerLink="/detail/{{ movie.id }}">
-            <span class="id-name">{{movie.id}} -</span> {{movie.name}}
+            <span class="badge bg-warning id-name">{{movie.id}}</span> {{movie.name}}
             <span>
-                <button class="closeIcon">X</button>
+                <button (click)="delete(movie)" class="closeIcon">X</button>
             </span>
         </li>
     </ul>

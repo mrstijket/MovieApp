@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { Movie } from '../movie';
 import { MovieService } from '../movie.service';
 
@@ -7,6 +7,7 @@ import { MovieService } from '../movie.service';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
+
 export class DashboardComponent {
   movies: Movie[] = [];
   movieLength: number;

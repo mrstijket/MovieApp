@@ -3,4 +3,5 @@ export class Movie {
     name: string;
     description: string;
     imageUrl: string;
+    imgUrlHd: string;
 }

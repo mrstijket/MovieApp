@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { AddMovieComponent } from './add-movie/add-movie.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     MovieDetailComponent,
     LoggingComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    AddMovieComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,7 @@ import { InMemoryDataService } from './in-memory-data.service';
       InMemoryDataService, { dataEncapsulation: false}
     )
   ],
-  providers: [],
+  providers: [MoviesComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
