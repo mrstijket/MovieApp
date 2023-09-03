@@ -1,0 +1,10 @@
+.navbar-nav {
+  flex-direction: row;
+  row-gap: 10px;
+  float: right;
+}
+
+a {
+  display: inline-block;
+  padding: 8px;
+}
