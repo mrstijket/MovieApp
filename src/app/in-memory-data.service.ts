@@ -17,6 +17,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {id: 7, name: 'Into the Wild', description:"After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.",imageUrl:"intothewild.jpg",imgUrlHd:"intothewild1920.jpg"},
       {id: 8, name: 'Inglourious Basterds', description:"In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",imageUrl:"inglouriousbasterds.jpg",imgUrlHd:"inglouriousbasterds1920.jpg"},
       {id: 9, name: 'Fury', description:"A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.",imageUrl:"fury.jpg",imgUrlHd:"fury1920.jpg"},
+      {id: 10, name: 'Matrix', description:"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",imageUrl:"matrix.jpg",imgUrlHd:"matrix1920.jpg"},
       
     ];
     return { movies };

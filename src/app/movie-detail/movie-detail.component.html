@@ -1,8 +1,11 @@
 <div class="card my-3" *ngIf="movie">
   <div class="card-body">
+    <img src="assets/img/{{ movie.imgUrlHd }}" style="max-width: 490px; border-radius: 10px;" alt="">
+    <br>
       <span class="badge bg-warning">
           id: {{movie.id}}
       </span>
+      
       <div class="form-group">
         <label for="name"></label>
         <input type="text" [(ngModel)]="movie.name" class="form-control">
